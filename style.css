@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@300;400;600;700;900&family=Roboto:wght@500;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
 
-/* the header section*/
+/* the header section */
 header {
   background: #3c3a39;
   display: flex;
@@ -14,7 +16,7 @@ header {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   line-height: 24px;
   font-weight: 700;
   font-size: 18px;
@@ -37,29 +39,29 @@ header {
 }
 
 h1 {
+  width: 327px;
+  height: 124px;
 
-width: 327px;
-height: 124px;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
+  /* font-family: 'Crete Round'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
 
-/* or 114% */
-letter-spacing: 0.37px;
+  /* or 114% */
+  letter-spacing: 0.37px;
 
-/* Theme 3 / Primary 1 */
-color: #FF6B00;
+  /* Theme 3 / Primary 1 */
+  color: #ff6b00;
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: ;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.title{
+.title {
   height: 100px;
   font-size: 24px;
   color: #1cbd44;
@@ -73,6 +75,7 @@ p {
   line-height: 24px;
   font-weight: 400;
   color: #fff;
+  margin: 10px 0 10px 0;
   width: 327px;
 }
 
@@ -103,7 +106,7 @@ ul {
 }
 
 .Recent {
-  font-family: 'Crete Round', sans-serif;
+  /* font-family: 'Crete Round', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -123,7 +126,7 @@ ul {
 }
 
 .Multi-Post-Heading {
-  font-family: 'Crete Round', sans-serif;
+  /* font-family: 'Crete Round', sans-serif; */
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
@@ -131,7 +134,7 @@ ul {
 }
 
 .Multi-Post-stories {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -149,7 +152,8 @@ ul {
   border: 1px solid #8993a4;
   padding: 9px 12px;
   margin-right: 10px;
-  font-family: 'Inter', sans-serif;
+
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 500;
 }
 
@@ -163,7 +167,7 @@ ul {
   border-style: none;
 }
 
-/* work section*/
+/* work section */
 .work-container {
   width: 90%;
   margin: auto;
@@ -179,7 +183,7 @@ ul {
 }
 
 .profesional-Art-heading {
-  font-family: 'Crete Round', sans-serif;
+  /* font-family: 'Crete Round', sans-serif; */
   font-weight: 400;
   font-size: 32px;
   width: 295px;
@@ -193,7 +197,8 @@ ul {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
-  font-family: 'Inter', sans-serif;
+
+  /* font-family: 'Inter', sans-serif; */
   width: 295px;
   height: 87px;
   color: #fff;
@@ -208,7 +213,7 @@ ul {
 }
 
 .profesional-Art-li {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
@@ -223,7 +228,8 @@ a {
   justify-content: center;
   text-decoration: none;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+
+  /* font-family: 'Inter', sans-serif; */
 }
 
 .profesional-Art-btm {
@@ -257,11 +263,12 @@ h2 {
   width: 327px;
   height: 79px;
   padding: 120px 0 0 24px;
-  font-family: 'Crete Round', sans-serif;
+
+  /* font-family: 'Crete Round', sans-serif; */
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -281,7 +288,8 @@ h2 {
   margin-left: 24px;
   border: none;
 }
-.image-bg{
+
+.image-bg {
   background-image: url('./Images/illustration-about-me-mobile.png');
   background-repeat: no-repeat;
   width: 300px;
@@ -295,7 +303,6 @@ h2 {
   padding-left: 212px;
   margin-top: 300px;
 }
-
 
 .footer-hr {
   border: 1px solid #fff;
@@ -318,7 +325,7 @@ h2 {
 }
 
 .footer-li {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 400;
   font-size: 15px;
   color: #fff;
@@ -343,7 +350,7 @@ h2 {
   font-weight: 700;
 }
 
-.button:disabled {
+.button:enabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
