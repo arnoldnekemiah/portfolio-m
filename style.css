@@ -28,7 +28,6 @@ header {
 }
 
 /* headline section */
-
 .headline {
   background: #1c1a19;
   color: #fff;
@@ -53,7 +52,6 @@ h1 {
 
   /* Theme 3 / Primary 1 */
   color: #ff6b00;
-
 
   /* Inside auto layout */
   flex: none;
@@ -342,7 +340,6 @@ h2 {
 }
 
 /* ..........btm hover state............ */
-
 .button:hover {
   background-color: #fff5e1;
   color: #f55800;
