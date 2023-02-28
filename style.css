@@ -358,3 +358,40 @@ h2 {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+.contact{
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto;
+  grid-template-rows:auto ;
+  /* background-color: #f55800; */
+  padding: 120px 24px;
+  gap: 58px;
+  width: 375px;
+  height: 844px;
+}
+.conclusion-txt{
+  width: 327px;
+  height: 20px;
+  line-height: 44px;
+  font-size: 30px;
+  color: #172B4D;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+.input-1{
+  height: 18px;
+}
+.textarea{
+  height: 114px;
+}
+.btn-submit{
+  width: 131px;
+  height: 48px;
+  padding: 12px;
+  background-color: #f55800;
+  color: #fff;
+}
