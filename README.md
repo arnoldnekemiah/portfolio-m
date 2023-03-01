@@ -47,7 +47,7 @@ Welcome to my portfolio project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://www.loom.com/share/b8d1c2b978bf4e71a3a35b934415226a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +60,7 @@ Welcome to my portfolio project
 https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/arnoldnekemiah/my-portfolio-microverse.git
+  git clone https://github.com/arnoldnekemiah/portfolio-m
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains 
 the repository.
@@ -79,7 +79,15 @@ the repository.
 - Twitter: [@twitterhandle](https://twitter.com/arnoldikonde)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/arnold-nekemiah-b050621ab/)
 
+👤 **Innocent Ndahimana**
+- GitHub: [@githubhandle](https://github.com/innocent259)
+
+👤 **Tshepo Makama**
+- GitHub: [@githubhandle](https://github.com/Tshepo45)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- FUTURE FEATURES -->
 
