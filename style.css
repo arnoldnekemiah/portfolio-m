@@ -364,10 +364,8 @@ h2 {
   margin: auto;
   grid-template-columns: auto;
   grid-template-rows: auto;
-
-  /* background-color: #f55800; */
-  padding: 120px 24px;
-  gap: 58px;
+  padding: 10px 24px;
+  gap: 24px;
   width: 375px;
   height: 844px;
 }
@@ -376,7 +374,9 @@ h2 {
   width: 327px;
   height: 20px;
   line-height: 44px;
-  font-size: 30px;
+  font-family: 'Inter',sans-serif;
+  font-size: 24px;
+  font-weight: 700;
   color: #172b4d;
 }
 
@@ -389,6 +389,10 @@ h2 {
 }
 
 .input-username {
+  width: 327px;
+  height: 48px;
+}
+.input-email{
   width: 327px;
   height: 48px;
 }
@@ -408,6 +412,7 @@ h2 {
 
 .textarea {
   height: 114px;
+  width: 327px;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   background-color: #fbf8f7;
@@ -420,13 +425,19 @@ h2 {
   background-color: #f55800;
   color: #fff;
   border: none;
-  margin: auto;
+  margin-left: 98px;
   margin-bottom: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
 }
+.line-z3 {
+  border: 1px solid #212121;
+  width: 327px;
+  margin:0;
+}
+
 
 .footer-last {
   height: 72px;
