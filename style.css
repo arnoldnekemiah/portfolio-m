@@ -374,7 +374,7 @@ h2 {
   width: 327px;
   height: 20px;
   line-height: 44px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #172b4d;
@@ -392,7 +392,8 @@ h2 {
   width: 327px;
   height: 48px;
 }
-.input-email{
+
+.input-email {
   width: 327px;
   height: 48px;
 }
@@ -432,12 +433,12 @@ h2 {
   font-size: 17px;
   line-height: 24px;
 }
+
 .line-z3 {
   border: 1px solid #212121;
   width: 327px;
-  margin:0;
+  margin: 0;
 }
-
 
 .footer-last {
   height: 72px;
