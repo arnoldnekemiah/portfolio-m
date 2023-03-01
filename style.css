@@ -375,6 +375,7 @@ h2 {
   height: 20px;
   line-height: 44px;
   font-family: 'Inter', sans-serif;
+  text-align: center;
   font-size: 24px;
   font-weight: 700;
   color: #172b4d;
@@ -437,7 +438,6 @@ h2 {
 .line-z3 {
   border: 1px solid #212121;
   width: 327px;
-  margin: 0;
 }
 
 .footer-last {
