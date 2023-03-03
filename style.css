@@ -352,6 +352,7 @@ h2 {
   color: #f55800;
   border: 1px solid #f55800;
   font-weight: 700;
+  transform rotate:0.2s;
 }
 
 .button:enabled {
