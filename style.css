@@ -25,8 +25,17 @@ header {
 }
 
 #logo {
+  display: block;
   color: #fff;
   text-decoration: none;
+}
+
+.links {
+  display: none;
+}
+
+.mail {
+  display: none;
 }
 
 /* headline section */
@@ -66,7 +75,7 @@ h1 {
 .title {
   height: 100px;
   font-size: 24px;
-  color: #311cbd;
+  color: #1cbd4a;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
@@ -128,6 +137,7 @@ ul {
 .about-img {
   height: 237px;
   margin-top: 50px;
+  background-image: url(./Images/Img\ Placeholder.png);
 }
 
 .Multi-Post-Heading {
@@ -469,4 +479,340 @@ h2 {
   margin-bottom: 0;
   width: 134px;
   border: 5px solid #212121;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    right: 80px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    width: 63px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mail {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(./Images/Icon\ -\ Mail.png);
+    position: absolute;
+    left: 200px;
+    gap: 30px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .headline {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    background-image: url(/Images/Illustration-header@2x.png);
+    background-position: 300px 1px;
+  }
+
+  .brands {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style-type: none;
+    width: 20px;
+    height: 98.96px;
+    left: 0;
+    top: 394px;
+  }
+
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 192px 0;
+    gap: 20px;
+    position: absolute;
+    width: 566px;
+    height: 500px;
+    left: 143px;
+    top: 72px;
+  }
+
+  .About-myself {
+    margin-top: 700px;
+    width: 100%;
+    height: 600px;
+    left: 118px;
+    top: 875px;
+    border-radius: 0;
+    padding: 130px 24px 130px 24px;
+  }
+
+  .Recent-work {
+    height: 52px;
+    width: 100%;
+    left: 35.5px;
+    top: 130px;
+    border-radius: 0;
+  }
+
+  .about-img {
+    background-image: url(/Images/img-Placeholder.png);
+    height: 448px;
+    width: 684px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .rightblock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 1140px;
+    width: 684px;
+    left: 800px;
+  }
+
+  .Multi-Post-ul {
+    height: 40px;
+    width: 297px;
+    left: 0;
+    top: 236px;
+    border-radius: 0;
+  }
+
+  .work-container {
+    height: 448px;
+    width: 1155px;
+    border-radius: 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .art-container {
+    height: 435px;
+    width: 369px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .about {
+    width: 100%;
+    margin-top: 330px;
+  }
+
+  .about-me-footer {
+    height: 582px;
+    width: 566px;
+    left: 142px;
+    top: 2680px;
+    border-radius: 0;
+    padding: 130px 0 130px 0;
+  }
+
+  .image-bg {
+    background-image: url(/Images/illustration-about\ me3.svg);
+    height: 352px;
+    width: 672px;
+    left: 700px;
+    top: 2700px;
+  }
+
+  .detail {
+    height: 582px;
+    width: 566px;
+    left: 142px;
+  }
+
+  .about-me {
+    height: 78px;
+    width: 566px;
+    left: 0;
+    top: 130px;
+    border-radius: nullpx;
+  }
+
+  .footer-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+    height: 148px;
+    width: 566px;
+    left: 0;
+    top: 232px;
+    border-radius: nullpx;
+  }
+
+  .footer-btm {
+    height: 48px;
+    width: 161px;
+    left: 0;
+    top: 404px;
+    border-radius: 0;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  .my-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 596px;
+    width: 1157.455810546875px;
+    left: 141px;
+    top: 3279px;
+    border-radius: 0;
+    padding: 130px 0 130px 0;
+  }
+
+  .footer-list {
+    height: 281.4558410644531px;
+    width: 289.4558410644531px;
+    left: 0;
+    top: 130px;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+
+  .work {
+    height: 336px;
+    width: 282px;
+    left: 441.4560546875px;
+    top: 130px;
+    border-radius: 0;
+  }
+
+  .skill {
+    height: 336px;
+    width: 282px;
+    left: 875.4560546875px;
+    top: 130px;
+    border-radius: 0;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    height: 590px;
+    width: 1163px;
+    left: 135px;
+    top: 3875px;
+    border-radius: 0;
+    padding: 130px 0 130px 0;
+  }
+
+  .conclusion-txt {
+    height: 256px;
+    width: 455px;
+    left: 0;
+    top: 0;
+    border-radius: nullpx;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .form {
+    height: 330px;
+    width: 684px;
+    margin-top: 130px;
+  }
+
+  .input-username {
+    height: 48px;
+    width: 684px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .input-email {
+    height: 48px;
+    width: 684px;
+    left: 0;
+    top: 72px;
+    border-radius: 0;
+  }
+
+  .textarea {
+    height: 114px;
+    width: 684px;
+    left: 0;
+    top: 144px;
+    border-radius: 0;
+  }
+
+  .line-z3 {
+    width: 10000px;
+  }
+
+  #logo {
+    height: 20px;
+    width: 250px;
+    left: 12px;
+    top: 10px;
+    border-radius: nullpx;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .logo {
+    height: 40px;
+    width: 116px;
+    left: 142px;
+    top: 16px;
+    border-radius: 0;
+    padding: 10px 12px 10px 12px;
+  }
 }
