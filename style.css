@@ -193,7 +193,9 @@ ul {
   grid-template-rows: 1fr;
 }
 
-.art-container {
+.art-container,
+.art-container1,
+.art-container2 {
   background-image: url("/Images/Img\ Placeholder\ \(1\).png");
 }
 
@@ -482,6 +484,10 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+  * {
+    max-width: 1438px;
+  }
+
   .menu {
     display: none;
   }
@@ -547,17 +553,26 @@ h2 {
     top: 394px;
   }
 
+  .icon {
+    display: block;
+    padding: 10px;
+  }
+
   .headline-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 192px 0;
-    gap: 20px;
     position: absolute;
     width: 566px;
     height: 500px;
     left: 143px;
     top: 72px;
+  }
+
+  .title {
+    display: block;
+    padding: 0;
   }
 
   .About-myself {
@@ -593,9 +608,9 @@ h2 {
     align-items: flex-start;
     gap: 24px;
     position: absolute;
-    top: 1140px;
+    top: 1160px;
     width: 684px;
-    left: 800px;
+    left: 750px;
   }
 
   .Multi-Post-ul {
@@ -623,6 +638,14 @@ h2 {
     left: 0;
     top: 0;
     border-radius: 0;
+  }
+
+  .art-container1 {
+    background-image: url(/Images/Img\ Placeholder5.png);
+  }
+
+  .art-container2 {
+    background-image: url(/Images/Img\ Placeholder6.png);
   }
 
   .about {
@@ -796,8 +819,6 @@ h2 {
   #logo {
     height: 20px;
     width: 250px;
-    left: 12px;
-    top: 10px;
     border-radius: nullpx;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -808,11 +829,11 @@ h2 {
   }
 
   .logo {
+    display: flex;
+    flex-direction: column;
     height: 40px;
     width: 116px;
-    left: 142px;
-    top: 16px;
-    border-radius: 0;
+    margin-top: 20px;
     padding: 10px 12px 10px 12px;
   }
 }
