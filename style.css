@@ -196,7 +196,7 @@ ul {
 .art-container,
 .art-container1,
 .art-container2 {
-  background-image: url("/Images/Img\ Placeholder\ \(1\).png");
+  background-image: url("/Images/Img-Placeholder11.png");
 }
 
 .profesional-Art-heading {
@@ -235,8 +235,9 @@ ul {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
-  padding: 10px 15px;
   background: rgba(255, 255, 255, 0.24);
+  margin-top: 50px;
+  gap: 20px;
 }
 
 a {
@@ -257,7 +258,7 @@ a {
   color: #fff;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 22px;
+  margin-top: 70px;
   border-style: none;
 }
 
@@ -301,7 +302,7 @@ h2 {
   padding: 12px;
   gap: 10px;
   margin-top: 0;
-  background: #ffa600;
+  background: #f55800;
   color: #fff;
   margin-left: 24px;
   border: none;
@@ -691,7 +692,7 @@ h2 {
     margin-left: 75%;
     background-image: url(/Images/illustration-about\ me5.svg);
     background-size: 300px 500px;
-    background-position: 160% 20%;
+    background-position: 120% 5%;
     transform: rotate(360deg);
   }
 
@@ -706,9 +707,13 @@ h2 {
   .about-me {
     height: 78px;
     width: 566px;
-    left: 0;
-    top: 130px;
-    border-radius: nullpx;
+    margin-left: 142px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .footer-text {
@@ -720,24 +725,22 @@ h2 {
     text-align: left;
     height: 148px;
     width: 566px;
-    left: 0;
-    top: 232px;
-    border-radius: nullpx;
+    margin-left: 142px;
   }
 
   .footer-btm {
     height: 48px;
     width: 161px;
-    left: 0;
-    top: 404px;
-    border-radius: 0;
     padding: 12px;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 169px;
   }
 
   .my-skills {
