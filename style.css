@@ -570,6 +570,17 @@ h2 {
     top: 72px;
   }
 
+  .headi {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 235px;
+    width: 566px;
+  }
+
   .title {
     display: block;
     padding: 0;
@@ -613,11 +624,9 @@ h2 {
   }
 
   .about-img {
-    background-image: url(/Images/img-Placeholder.png);
+    background-image: url(./Images/Img-Placeholder4.png);
     height: 448px;
     width: 684px;
-    left: 0;
-    top: 0;
   }
 
   .rightblock {
@@ -632,9 +641,6 @@ h2 {
   .Multi-Post-ul {
     height: 40px;
     width: 297px;
-    left: 0;
-    top: 236px;
-    border-radius: 0;
   }
 
   .work-container {
@@ -651,21 +657,19 @@ h2 {
   .art-container {
     height: 435px;
     width: 369px;
-    left: 0;
-    top: 0;
-    border-radius: 0;
+    background-image: url(/Images/Img-Placeholder10.png);
   }
 
   .art-container1 {
     height: 435px;
     width: 369px;
-    background-image: url(/Images/Img\ Placeholder5.png);
+    background-image: url(/Images/Img-Placeholder11.png);
   }
 
   .art-container2 {
     height: 435px;
     width: 369px;
-    background-image: url(/Images/Img\ Placeholder6.png);
+    background-image: url(/Images/Mask-Group.png);
   }
 
   .about {
