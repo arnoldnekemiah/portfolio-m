@@ -196,7 +196,7 @@ ul {
 .art-container,
 .art-container1,
 .art-container2 {
-  background-image: url("Images/Img-Placeholder10.png");
+  background-image: url("./Images/Img-Placeholder10.png");
 }
 
 .profesional-Art-heading {
@@ -309,7 +309,7 @@ h2 {
 }
 
 .image-bg {
-  background-image: url('./Images/illustration-about-me-mobile.png');
+  background-image: url("./Images/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   width: 300px;
   height: 400px;
