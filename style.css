@@ -540,7 +540,7 @@ h2 {
   .headline {
     width: 100%;
     height: 550px;
-    background-image: url("./Images/Illustration-header@2x.png");
+    background-image: url("./Images/illustration-header2.png");
     background-size: 500px 768px;
     background-position: 100% 30%;
   }
@@ -705,7 +705,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-left: 75%;
-    background-image: url("./Images/illustration-about\ me5.svg");
+    background-image: url("./Images/Illustration-aboutme5.svg");
     background-size: 300px 500px;
     background-position: 120% 5%;
     transform: rotate(360deg);
