@@ -658,7 +658,7 @@ h2 {
   .art-container {
     height: 435px;
     width: 369px;
-    background-image: url(./Images/Img-Placeholder10.png);
+    background-image: url("./Images/Img-Placeholder10.png");
   }
 
   .art-container:hover {
@@ -670,13 +670,13 @@ h2 {
   .art-container1 {
     height: 435px;
     width: 369px;
-    background-image: url(./Images/Img-Placeholder11.png);
+    background-image: url("./Images/Img-Placeholder11.png");
   }
 
   .art-container2 {
     height: 435px;
     width: 369px;
-    background-image: url(./Images/Mask-Group.png);
+    background-image: url("./Images/Mask-Group.png");
   }
 
   .profesional-Art-btm,
