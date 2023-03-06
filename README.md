@@ -48,6 +48,7 @@ Welcome to my portfolio project
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://www.loom.com/share/b8d1c2b978bf4e71a3a35b934415226a)
+- [Online Link](https://arnoldnekemiah.github.io/portfolio-m/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +95,9 @@ the repository.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
+
 - I will set up the mobile version.
+- I will set up the Desktop version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
