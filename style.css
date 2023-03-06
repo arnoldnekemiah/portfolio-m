@@ -137,7 +137,7 @@ ul {
 .about-img {
   height: 237px;
   margin-top: 50px;
-  background-image: url(./Images/Img--Placeholder.png);
+  background-image: url("./Images/Img--Placeholder.png");
 }
 
 .Multi-Post-Heading {
@@ -196,7 +196,7 @@ ul {
 .art-container,
 .art-container1,
 .art-container2 {
-  background-image: url("/Images/Img-Placeholder10.png");
+  background-image: url("./Images/Img-Placeholder10.png");
 }
 
 .profesional-Art-heading {
@@ -309,7 +309,7 @@ h2 {
 }
 
 .image-bg {
-  background-image: url('./Images/illustration-about-me-mobile.png');
+  background-image: url("./Images/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   width: 300px;
   height: 400px;
@@ -524,7 +524,7 @@ h2 {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(./Images/Icon\ -\ Mail.png);
+    background-image: url('./Images/Icon\ -\ Mail.png');
     margin-left: 20px;
     margin-top: 20px;
     gap: 30px;
@@ -541,7 +541,7 @@ h2 {
   .headline {
     width: 100%;
     height: 550px;
-    background-image: url(/Images/Illustration-header@2x.png);
+    background-image: url("./Images/illustration-header2.png");
     background-size: 500px 768px;
     background-position: 100% 30%;
   }
@@ -659,7 +659,7 @@ h2 {
   .art-container {
     height: 435px;
     width: 369px;
-    background-image: url(/Images/Img-Placeholder10.png);
+    background-image: url("./Images/Img-Placeholder10.png");
   }
 
   .art-container:hover {
@@ -671,13 +671,13 @@ h2 {
   .art-container1 {
     height: 435px;
     width: 369px;
-    background-image: url(/Images/Img-Placeholder11.png);
+    background-image: url("./Images/Img-Placeholder11.png");
   }
 
   .art-container2 {
     height: 435px;
     width: 369px;
-    background-image: url(/Images/Mask-Group.png);
+    background-image: url("./Images/Mask-Group.png");
   }
 
   .profesional-Art-btm,
@@ -706,7 +706,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-left: 75%;
-    background-image: url(/Images/illustration-about\ me5.svg);
+    background-image: url("./Images/Illustration-aboutme5.svg");
     background-size: 300px 500px;
     background-position: 120% 5%;
     transform: rotate(360deg);
