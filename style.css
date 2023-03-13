@@ -38,6 +38,56 @@ header {
   display: none;
 }
 
+.menu {
+  display: block;
+  cursor: pointer;
+}
+
+
+.specific-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.specific-links li {
+  margin-bottom: 15px;
+}
+
+.links.show {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #3c3a39;
+  width: 100%;
+  z-index: 1;
+}
+
+.links.show .specific-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links.show .specific-links li {
+  margin-bottom: 15px;
+}
+
+.close-btn {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 45px;
+}
+/* hide the close button initially */
+.close-btn.hide {
+  display: none;
+}
+
 /* headline section */
 .headline {
   background: #1c1a19;
@@ -528,6 +578,9 @@ h2 {
     margin-left: 20px;
     margin-top: 20px;
     gap: 30px;
+  }
+  .close{
+    display: none;
   }
 
   header {
