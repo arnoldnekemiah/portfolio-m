@@ -47,7 +47,7 @@ Welcome to my portfolio project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/b8d1c2b978bf4e71a3a35b934415226a)
+- [Live Demo Link](https://www.loom.com/share/b9a8cf8c22674c948d4eecb1f2e73b6d)
 - [Online Link](https://arnoldnekemiah.github.io/portfolio-m/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
