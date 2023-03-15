@@ -66,3 +66,11 @@
           flex-direction: column; 
           gap: 30px;
          }
+
+         .close-popup {
+          display: none;
+         }
+         .menu-popup .close-popup {
+          display: flex;
+          background-color: red;
+         } 
