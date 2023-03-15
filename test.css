@@ -1,76 +1,49 @@
-/* @media (max-width: 765px) {
+@media (max-width: 765px) {
   .menu {
     display: block;
     cursor: pointer;
   }
-   */
-  /* .menu-popup {
-    position: absolute;
-     z-index: 9999;  
-     top: 0;  
-     left: 0;
-     background-color: #3C3A39(234 100% 63% );
-    backdrop-filter: blur(6px); 
-       width: 100%;  height: 100%;
+  .specific-links{
+    display: none;
   }
-  
-  .menu-popup.active {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .specific-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .specific-links li {
-    margin-bottom: 15px;
-  }
-  .specific-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-  }
-  
-  .close-popup {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-  } */
-/* } */
-
 
 .menu-popup { 
    position: absolute;
      z-index: 9999;  
      top: 0;  
      left: 0;
-     background-color: #3C3A39(234 100% 63% );
-      backdrop-filter: blur(6px); 
-       width: 100%;  height: 100%;
+     background-color: #3C3A39;
+    backdrop-filter: blur(6px); 
+       width: 100%;  
+       height: 100%;
+       display: flex;
         }
   .menu-popup a{ 
            color: #FFF5E1;
+           margin-top: 100px;
+           margin-bottom: 100px;
+           margin-left: 300px;
+           border-bottom: 1px solid white;
                }
   .menu-popup ul{  
           display: flex;  
-          flex-direction: column; 
-          gap: 30px;
+          flex-direction: column;
          }
+         body:has(.menu-popup) {  
+          overflow: hidden;}       
 
          .close-popup {
           display: none;
          }
          .menu-popup .close-popup {
           display: flex;
-          background-color: red;
+
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          color: red;
+          font-size: 30px;
+          font-weight: bold;
+          cursor: pointer;
          } 
+        }

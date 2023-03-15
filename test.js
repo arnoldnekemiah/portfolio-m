@@ -1,13 +1,14 @@
-// const menuButton = document.querySelector('.menu');
-// const closeButton = document.querySelector('.close-popup');
-// const menuPopup = document.querySelector('.menu-popup');
-// const specificLinks = document.querySelectorAll('.specific-links a');
 
-// menuButton.addEventListener('click', toggleMenuPopup);
-// closeButton.addEventListener('click', toggleMenuPopup);
+
 document.getElementById('btn-menu').addEventListener('click', toggleMenuPopup)
+const ad = document.getElementById('links')
+const closeBtn = document.querySelector('.close-popup');
 
 function toggleMenuPopup() {
-const a = document.getElementById('links')
-  a.classList.toggle('menu-popup');
+  ad.classList.toggle('menu-popup');
 }
+
+closeBtn.addEventListener('click', () => {
+  ad.classList.remove('menu-popup');
+  document.body.classList.closeBtn('menu-open');
+});
