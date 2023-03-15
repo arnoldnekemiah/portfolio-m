@@ -532,7 +532,8 @@ h2 {
     margin-top: 20px;
     gap: 30px;
   }
-  .close{
+
+  .close {
     display: none;
   }
 
@@ -883,7 +884,8 @@ h2 {
     margin-top: 3px;
     padding: 10px 12px 10px 12px;
   }
-  .close-popup{
+
+  .close-popup {
     display: none;
   }
 }
