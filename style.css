@@ -209,7 +209,7 @@ ul {
 .profesional-Art-content {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400px;
+  font-weight: 400;
 
   /* font-family: 'Inter', sans-serif; */
   width: 295px;
@@ -227,7 +227,7 @@ ul {
 
 .profesional-Art-li {
   /* font-family: 'Inter', sans-serif; */
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #fff;
@@ -331,7 +331,7 @@ h2 {
 
 .footer-heading {
   font-size: 22px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .footer-ul {
@@ -361,7 +361,6 @@ h2 {
   color: #f55800;
   border: 1px solid #f55800;
   font-weight: 700;
-  transform: rotate(0.7s);
 }
 
 .button:enabled {
@@ -808,7 +807,6 @@ h2 {
     width: 455px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -854,7 +852,6 @@ h2 {
   #logo {
     height: 20px;
     width: 250px;
-    border-radius: nullpx;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
