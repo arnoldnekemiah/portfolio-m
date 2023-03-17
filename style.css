@@ -680,12 +680,7 @@ h2 {
     background-image: url("./Images/Mask-Group.png");
   }
 
-  .profesional-Art-btm,
-  .profesional-Art-btm1,
-  .profesional-Art-btm2,
-  .profesional-Art-btm3,
-  .profesional-Art-btm4,
-  .profesional-Art-btm5 {
+  .hide-me {
     display: none;
   }
 
@@ -879,6 +874,10 @@ h2 {
   }
 
   .close-popup {
+    display: none;
+  }
+
+  #hide-me {
     display: none;
   }
 }
