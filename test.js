@@ -154,11 +154,11 @@ form.addEventListener('submit', (event) => {
 // using localstroage
 
 const email = document.getElementById('mail');
-const username = document.getElementById('user');
-const message = document.getElementById('intermessage');
+const username = document.getElementById('username');
+const message = document.getElementById('message');
 
 if (localStorage.getItem('contact-data') !== null) {
-  const data = parse(localStorage.getItem('contact-data'));
+  const data = JSON.parse(localStorage.getItem('contact-data'));
   email.value = data.email;
   username.value = data.username;
   message.value = data.message;
@@ -198,5 +198,3 @@ function setFormData(dataSave, data) {
     }
   }
 }
-
-
