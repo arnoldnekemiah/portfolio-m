@@ -19,6 +19,11 @@
   margin: 60px 16px 39px 16px;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .popup-name-image {
   display: flex;
   justify-content: space-between;
@@ -42,7 +47,7 @@
   display: flex;
   width: auto;
   flex-direction: row;
-  align-items: center;
+  margin-top: -40px;
 }
 
 .popup-list {
@@ -59,14 +64,12 @@
 
 .popup-feature-img {
   height: 320px;
-  width: 500px;
-  left: 16px;
-  top: 170px;
-  border-radius: 0;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .popup-description {
-  margin-top: 24px;
+  margin-top: -4px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -109,12 +112,39 @@
 }
 
 @media screen and (min-width: 768px) {
+  .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-details-container {
+    height: 631px;
+    width: 1156px;
+  }
+
+  .popup-name {
+    height: 40px;
+  }
+
+  .popup-unorded-list {
+    margin-top: -2px;
+    width: 500px;
+  }
+
+  .evelop {
+    display: flex;
+    gap: 20px;
+  }
+
   .popup-feature-img {
     content: url('./Images/Snapshoot-Portfolio2.png');
     height: 448px;
     width: 659px;
-    left: 24px;
-    top: 156px;
+  }
+
+  .left-side {
+    margin-top: 62px;
   }
 
   .popup-description {
@@ -127,21 +157,15 @@
     letter-spacing: 0;
     text-align: left;
     position: absolute;
-    left: 900px;
-    top: 190px;
   }
 
   .popup-button {
-    position: absolute;
-    left: 900px;
-    top: 608px;
+    margin-top: 400px;
   }
 
   .popup-button-1 {
     height: 48px;
     width: 158px;
-    left: 849px;
-    top: 556px;
     display: flex;
     justify-content: space-between;
   }
@@ -159,27 +183,5 @@
     /* identical to box height, or 141% */
     display: flex;
     align-items: center;
-  }
-
-  .popup-unorded-list {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 3px;
-    gap: 10px;
-  }
-
-  .popup-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .popup-details-container {
-    height: 631px;
-    width: 1156px;
-  }
-
-  .popup-name {
-    height: 40px;
   }
 }

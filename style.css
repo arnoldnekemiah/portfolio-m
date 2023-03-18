@@ -193,6 +193,7 @@ ul {
 .art-container1,
 .art-container2 {
   background-image: url("./Images/Img-Placeholder10.png");
+  margin-bottom: 20px;
 }
 
 .profesional-Art-heading {
@@ -262,6 +263,20 @@ a.profesional-Art-btm {
   display: flex;
   align-items: center;
 }
+
+.art-container #hide-me,
+.art-container1 #hide-me,
+.art-container2 #hide-me {
+  display: none;
+}
+
+.art-container:hover #hide-me,
+.art-container1:hover #hide-me,
+.art-container2:hover #hide-me {
+  display: flex;
+  text-align: center;
+}
+
 
 /* footer section */
 .about {
@@ -647,10 +662,9 @@ h2 {
   .work-container {
     height: 448px;
     width: 100%;
-    border-radius: 0;
+    grid-gap: -30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
     justify-items: center;
     align-items: center;
   }
@@ -871,10 +885,6 @@ h2 {
   }
 
   .close-popup {
-    display: none;
-  }
-
-  #hide-me {
     display: none;
   }
 }

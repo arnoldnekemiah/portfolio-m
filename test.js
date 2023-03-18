@@ -88,30 +88,35 @@ let content = '';
 data.forEach((item) => {
   content = `
   <div class="popup-details-container">
-    <span class="popup-name-image">
-      <h1 class="popup-name">${item.title}</h1>
-      <img src=${item.iconCancel} class="popup-image"> 
-    </span>
-    <ul class="popup-unorded-list">
-    ${item.technologies.map((itemList) => `<li class="popup-list">${itemList}</li>`).join('')}
-    </ul>
+       <span class="popup-name-image">
+          <h1 class="popup-name">${item.title}</h1>
+          <img src=${item.iconCancel} class="popup-image"> 
+       </span>
+    <div class="evelop">
+    <div class="conatainer1">
+      <ul class="popup-unorded-list">
+          ${item.technologies.map((itemList) => `<li class="popup-list">${itemList}</li>`).join('')}
+      </ul>
     <span class="desktop-diff">
-      <img src=${item.featureImg} class="popup-feature-img">
-      <div class="left-side">
-        <p class="popup-description">${item.description}</p>
-        <span class="popup-button">
-          <button class="button popup-button-1">
-            <a href=${item.liveLink}>See Project</a>
-            <img class="git" src="./Images/Iconic.png">
-          </button>
-          <button class="button popup-button-1">
-            <a href=${item.linkSource}>See Source</a>
-            <img src="./Images/Vectoric.png">
-          </button>
-        </span>
-      </div>
+          <img src=${item.featureImg} class="popup-feature-img">
     </span>
-    
+</div>
+
+  <div class="left-side">
+    <p class="popup-description">${item.description}</p>
+    <span class="popup-button">
+      <button class="button popup-button-1">
+        <a href=${item.liveLink}>See Project</a>
+        <img class="git" src="./Images/Iconic.png">
+      </button>
+      <button class="button popup-button-1">
+        <a href=${item.linkSource}>See Source</a>
+        <img src="./Images/Vectoric.png">
+      </button>
+    </span>
+  </div>
+    </div>
+      
   </div> 
   `;
 });
