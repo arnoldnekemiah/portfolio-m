@@ -154,8 +154,8 @@ form.addEventListener('submit', (event) => {
 // using localstroage
 
 const email = document.getElementById('mail');
-const username = document.getElementById('username');
-const message = document.getElementById('message');
+const username = document.getElementById('user');
+const message = document.getElementById('intermessage');
 
 if (localStorage.getItem('contact-data') !== null) {
   const data = JSON.parse(localStorage.getItem('contact-data'));
