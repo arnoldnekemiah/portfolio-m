@@ -151,51 +151,5 @@ form.addEventListener('submit', (event) => {
 });
 
 //Save user data
-// using localstroage
 
-const email = document.getElementById('mail');
-const username = document.getElementById('username');
-const message = document.getElementById('message');
-
-if (localStorage.getItem('contact-data') !== null) {
-  const data = JSON.parse(localStorage.getItem('contact-data'));
-  email.value = data.email;
-  username.value = data.username;
-  message.value = data.message;
-}
-
-const contactData = {
-  email,
-  username,
-  message,
-};
-
-email.addEventListener('change', (e) => {
-  contactData.email = e.target.value;
-  contactData.username = username.value;
-  contactData.message = message.value;
-  localStorage.setItem('contact-data', JSON.stringify(contactData));
-});
-
-username.addEventListener('change', (e) => {
-  contactData.username = e.target.value;
-  contactData.message = message.value;
-  contactData.email = email.value;
-  localStorage.setItem('contact-data', JSON.stringify(contactData));
-});
-
-message.addEventListener('change', (e) => {
-  contactData.message = e.target.value;
-  contactData.email = email.value;
-  contactData.username = username.value;
-  localStorage.setItem('contact-data', JSON.stringify(contactData));
-});
-// Helper function to set form data from object
-function setFormData(dataSave, data) {
-  for (const key in data) {
-    if (dataSave.elements[key]) {
-      dataSave.elements[key].value = data[key];
-    }
-  }
-}
 
