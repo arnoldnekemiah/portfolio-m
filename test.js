@@ -150,9 +150,8 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-//Save user data
+// Save user data
 // using localstroage
-
 const email = document.getElementById('mail');
 const username = document.getElementById('username');
 const message = document.getElementById('message');
