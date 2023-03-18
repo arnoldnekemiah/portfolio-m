@@ -189,11 +189,3 @@ message.addEventListener('change', (e) => {
   contactData.username = username.value;
   localStorage.setItem('contact-data', JSON.stringify(contactData));
 });
-// Helper function to set form data from object
-function setFormData(dataSave, data) {
-  for (const key in data) {
-    if (dataSave.elements[key]) {
-      dataSave.elements[key].value = data[key];
-    }
-  }
-}
