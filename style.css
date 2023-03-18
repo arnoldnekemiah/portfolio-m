@@ -193,6 +193,7 @@ ul {
 .art-container1,
 .art-container2 {
   background-image: url("./Images/Img-Placeholder10.png");
+  margin-bottom: 20px;
 }
 
 .profesional-Art-heading {
@@ -209,7 +210,7 @@ ul {
 .profesional-Art-content {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400px;
+  font-weight: 400;
 
   /* font-family: 'Inter', sans-serif; */
   width: 295px;
@@ -227,7 +228,7 @@ ul {
 
 .profesional-Art-li {
   /* font-family: 'Inter', sans-serif; */
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #fff;
@@ -261,6 +262,19 @@ a {
 a.profesional-Art-btm {
   display: flex;
   align-items: center;
+}
+
+.art-container #hide-me,
+.art-container1 #hide-me,
+.art-container2 #hide-me {
+  display: none;
+}
+
+.art-container:hover #hide-me,
+.art-container1:hover #hide-me,
+.art-container2:hover #hide-me {
+  display: flex;
+  text-align: center;
 }
 
 /* footer section */
@@ -331,7 +345,7 @@ h2 {
 
 .footer-heading {
   font-size: 22px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .footer-ul {
@@ -361,7 +375,6 @@ h2 {
   color: #f55800;
   border: 1px solid #f55800;
   font-weight: 700;
-  transform: rotate(0.7s);
 }
 
 .button:enabled {
@@ -648,10 +661,9 @@ h2 {
   .work-container {
     height: 448px;
     width: 100%;
-    border-radius: 0;
+    grid-gap: -30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
     justify-items: center;
     align-items: center;
   }
@@ -680,12 +692,7 @@ h2 {
     background-image: url("./Images/Mask-Group.png");
   }
 
-  .profesional-Art-btm,
-  .profesional-Art-btm1,
-  .profesional-Art-btm2,
-  .profesional-Art-btm3,
-  .profesional-Art-btm4,
-  .profesional-Art-btm5 {
+  .hide-me {
     display: none;
   }
 
@@ -813,7 +820,6 @@ h2 {
     width: 455px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -859,7 +865,6 @@ h2 {
   #logo {
     height: 20px;
     width: 250px;
-    border-radius: nullpx;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
