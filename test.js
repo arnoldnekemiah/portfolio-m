@@ -136,7 +136,7 @@ for (let i = 0; i < seeProject.length; i += 1) {
 }
 
 //form validation
-const form = document.querySelector('.frm');
+const form = document.querySelector('.form');
 const emailInput = document.querySelector('#mail');
 const errorMessage = document.querySelector('#error-message');
 
