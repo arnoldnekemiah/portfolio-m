@@ -158,7 +158,7 @@ const username = document.getElementById('user');
 const message = document.getElementById('intermessage');
 
 if (localStorage.getItem('contact-data') !== null) {
-  const data = JSON.parse(localStorage.getItem('contact-data'));
+  const data = parse(localStorage.getItem('contact-data'));
   email.value = data.email;
   username.value = data.username;
   message.value = data.message;
